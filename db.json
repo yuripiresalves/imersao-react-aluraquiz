@@ -1,28 +1,126 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://rocknloadmag.com/wp-content/uploads/2020/03/BM13-1.jpg",
+  "title": "Quiz de BABYMETAL",
+  "description": "Teste os seus conhecimentos sobre BABYMETAL e prove ser um verdadeiro metalzinho",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://rocknloadmag.com/wp-content/uploads/2020/03/BM11-2.jpg",
+      "title": "Em que ano nasceu BABYMETAL?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "2009",
+        "2010",
+        "2012",
+        "2015"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://i.ibb.co/nDBDkfX/bb.jpg",
+      "title": "BABYMETAL surgiu de qual grupo?",
+      "description": "Sabe?",
+      "answer": 2,
+      "alternatives": [
+         "MusicGroup",
+         "Hana no Music",
+         "Sakura Gakuin",
+         "Ai no Gakuin"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/T0cBcJ3/kamiband.jpg",
+      "title": "Qual o nome da banda de suporte de BABYMETAL?",
+      "description": "Essa é fácil",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Kami Band",
+         "Fox Band",
+         "Metal band",
+         "Baby band"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/Vjcs5BW/baby.jpg",
+      "title": "Qual foi a formação original de BABYMETAL?",
+      "description": "Se errar é poser",
+      "answer": 1,
+      "alternatives": [
+        "SU-METAL, MOAMETAL e RIHOMETAL",
+         "SU-METAL, MOAMETAL e YUIMETAL",
+         "SUNO-METAL, MOAMETAL e MOMOKOMETAL",
+         "SU-METAL, YUMIMETAL e RIHOMETAL"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/gF9hXxX/tokyodome.gif",
+      "title": "Em que ano BABYMETAL fez seu maior show?",
+      "description": "Esse show foi no Tokyo Dome",
+      "answer": 2,
+      "alternatives": [
+         "2014",
+         "2016",
+         "2018",
+         "2019"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/VxBPXNP/cute.jpg",
+      "title": "Respectivamente, qual a discografia de BABYMETAL até 2020?",
+      "description": "3 ótimos álbuns",
+      "answer": 3,
+      "alternatives": [
+         "BABYMETAL, LEGEND METAL, METAL RESISTANCE",
+         "METAL GALAXY, METAL RESISTANCE, BABYMETAL",
+         "LEGEND METAL, BABYMETAL, KAWAII METAL",
+         "BABYMETAL, METAL RESISTANCE, METAL GALAXY"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/8BLZ0GV/yui.gif",
+      "title": "Em qual ano a integrante YUIMETAL anunciou sua saída do grupo?",
+      "description": "#ThankYouYUIMETAL 🍅",
+      "answer": 1,
+      "alternatives": [
+         "2017",
+         "2018",
+         "2019",
+         "2020"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/qNSZcMJ/kitsune.jpg",
+      "title": "Qual o nome da entidade suprema de BABYMETAL?",
+      "description": "E aí?",
+      "answer": 1,
+      "alternatives": [
+         "METALGOD",
+         "FOXGOD",
+         "BABYGOD",
+         "KAWAIIGOD"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/7YqLfKK/br.jpg",
+      "title": "Até 2020, BABYMETAL veio quantas vezes para o Brasil?",
+      "description": "Brasil sil sil",
+      "answer": 2,
+      "alternatives": [
+         "Nenhuma vez",
+         "Uma vez",
+         "Duas vezes",
+         "Três vezes"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/ccx9fkJ/sumoa.jpg",
+      "title": "Qual será o futuro de BABYMETAL?",
+      "description": "🦊",
+      "answer": 0,
+      "alternatives": [
+         "OnlyTheFoxGodKnows",
+         "OnlyTheFoxGodKnows",
+         "OnlyTheFoxGodKnows",
+         "OnlyTheFoxGodKnows"
       ]
     }
   ],

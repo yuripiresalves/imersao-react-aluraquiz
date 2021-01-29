@@ -1,15 +1,22 @@
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import AlternativesForm from '../src/components/AlternativesForm';
-import Button from '../src/components/Button';
+// import db from '../../../db.json';
+import { Lottie } from '@crello/react-lottie';
+import Widget from '../../components/Widget';
+import QuizLogo from '../../components/QuizLogo';
+import QuizBackground from '../../components/QuizBackground';
+import QuizContainer from '../../components/QuizContainer';
+import BackLinkArrow from '../../components/BackLinkArrow';
+import AlternativesForm from '../../components/AlternativesForm';
+import Button from '../../components/Button';
+
+import loadingAnimation from '../../../loading.json';
 
 function ResultWidget({ results }) {
   return (
     <Widget>
-      <Widget.Header>Resultado</Widget.Header>
+      <Widget.Header>
+        <BackLinkArrow href="/" />
+        Resultado
+      </Widget.Header>
 
       <Widget.Content>
         <p>
@@ -40,7 +47,18 @@ function LoadingWidget() {
     <Widget>
       <Widget.Header>Carregando...</Widget.Header>
 
-      <Widget.Content>[Desafio do Loading]</Widget.Content>
+      <Widget.Content>
+        <Lottie
+          width="250px"
+          height="200px"
+          className="lottie-container basic"
+          config={{
+            animationData: loadingAnimation,
+            loop: true,
+            autoplay: true,
+          }}
+        />
+      </Widget.Content>
     </Widget>
   );
 }
@@ -63,11 +81,12 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>{`Pergunta ${questionIndex + 1} de ${totalQuestions}`}</h3>
       </Widget.Header>
 
       <img
-        alt="Descrição"
+        alt="Imagem"
         style={{
           width: '100%',
           height: '150px',
@@ -105,7 +124,7 @@ function QuestionWidget({
                 data-status={isQuestionSubmited && alternativeStatus}
               >
                 <input
-                  // style={{ display: 'none' }}
+                  style={{ display: 'none' }}
                   id={alternativeId}
                   name={questionId}
                   onChange={() => setSelectedAlternative(alternativeIndex)}
@@ -132,13 +151,14 @@ const screenStates = {
   LOADING: 'LOADING',
   RESULT: 'RESULT',
 };
-export default function QuizPage() {
+export default function QuizPage({ externalQuestions, externalBg }) {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
   const [results, setResults] = React.useState([]);
-  const totalQuestions = db.questions.length;
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
   const questionIndex = currentQuestion;
-  const question = db.questions[questionIndex];
+  const question = externalQuestions[questionIndex];
+  const totalQuestions = externalQuestions.length;
+  const bg = externalBg;
 
   function addResult(result) {
     setResults([...results, result]);
@@ -160,7 +180,7 @@ export default function QuizPage() {
   }
 
   return (
-    <QuizBackground backgroundImage={db.bg}>
+    <QuizBackground backgroundImage={bg}>
       <QuizContainer>
         <QuizLogo />
         {screenState === screenStates.QUIZ && (

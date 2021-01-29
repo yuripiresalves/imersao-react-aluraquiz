@@ -88,18 +88,6 @@
       ]
     },
     {
-      "image": "https://i.ibb.co/qNSZcMJ/kitsune.jpg",
-      "title": "Qual o nome da entidade suprema de BABYMETAL?",
-      "description": "E aí?",
-      "answer": 1,
-      "alternatives": [
-         "METALGOD",
-         "FOXGOD",
-         "BABYGOD",
-         "KAWAIIGOD"
-      ]
-    },
-    {
       "image": "https://i.ibb.co/7YqLfKK/br.jpg",
       "title": "Até 2020, BABYMETAL veio quantas vezes para o Brasil?",
       "description": "Brasil sil sil",
@@ -109,6 +97,18 @@
          "Uma vez",
          "Duas vezes",
          "Três vezes"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/qNSZcMJ/kitsune.jpg",
+      "title": "Qual o nome da entidade suprema de BABYMETAL?",
+      "description": "E aí?",
+      "answer": 1,
+      "alternatives": [
+         "METALGOD",
+         "FOXGOD",
+         "BABYGOD",
+         "KAWAIIGOD"
       ]
     },
     {

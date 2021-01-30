@@ -8,7 +8,7 @@
 
 </h1>
 
-<p align="center">Quiz desenvolvido duranta a Imersão React/Next.js da <a href="https://www.alura.com.br" target="_blank">Alura</a></p>
+<p align="center">Quiz desenvolvido duranta a Imersão React/Next.js da <a href="https://www.alura.com.br" target="_blank">Alura</a>.</p>
 
 <p align="center">
   <a href="https://linkedin.com/in/yuripiresalves">
@@ -32,7 +32,7 @@
 
 ## :desktop_computer: Demonstração
 
-<p>
+<p align="center">
   <img src="/.github/quiz.gif" alt="Quiz" height="300px"/>
 </p>
 

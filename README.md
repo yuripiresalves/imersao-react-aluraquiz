@@ -33,7 +33,8 @@
 ## :desktop_computer: Demonstração
 
 <p align="center">
-  <img src="/.github/quiz.gif" alt="Quiz" height="300px"/>
+  <img src="/.github/quiz.gif" alt="QuizWeb" height="300px"/>
+  <img src="https://i.ibb.co/LQSwvSb/Captura-de-tela-de-2021-01-30-13-25-20.png" alt="QuizMobile" width="200px"/>
 </p>
 
 <hr/>

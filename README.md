@@ -1,7 +1,7 @@
 
 <h1 align="center">
 <br>
-  <img src="https://i.ibb.co/z8QCV07/Captura-de-tela-de-2021-01-30-12-41-44-removebg-preview.png" alt="AluraQuiz" width="216">
+  <img src="https://i.ibb.co/z8QCV07/Captura-de-tela-de-2021-01-30-12-41-44-removebg-preview.png" alt="AluraQuiz" width="300">
 <br>
 <br>
   
@@ -34,7 +34,7 @@
 ## :desktop_computer: Demonstração
 
 <p>
-  <img src="https://i.ibb.co/0sgg1KW/quiz.gif" alt="Quiz" height="200px"/>
+  <img src="https://i.ibb.co/89rRFQ2/quiz.gif" alt="Quiz" height="300px"/>
 </p>
 
 <hr/>
@@ -54,4 +54,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para 
 
 ---
 
-Feito com :blue_heart: por [Yuri Alves](https://linkedin.com/in/yuripiresalves)
+Feito com :purple_heart: por [Yuri Alves](https://linkedin.com/in/yuripiresalves)

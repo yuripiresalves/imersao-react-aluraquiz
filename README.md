@@ -1,11 +1,10 @@
-
 <h1 align="center">
 <br>
-  <img src="https://i.ibb.co/z8QCV07/Captura-de-tela-de-2021-01-30-12-41-44-removebg-preview.png" alt="AluraQuiz" width="300">
+  <img src="/.github/logo.png" alt="AluraQuiz" width="300">
 <br>
 <br>
   
-  
+
 
 </h1>
 
@@ -34,7 +33,7 @@
 ## :desktop_computer: Demonstração
 
 <p>
-  <img src="https://i.ibb.co/89rRFQ2/quiz.gif" alt="Quiz" height="300px"/>
+  <img src="/.github/quiz.gif" alt="Quiz" height="300px"/>
 </p>
 
 <hr/>
@@ -46,7 +45,6 @@
 - **Styled-components**
 - **Framer Motion**
 - **Lottie**
-
 
 ## :memo: Licença
 

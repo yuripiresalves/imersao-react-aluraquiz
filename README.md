@@ -1,7 +1,7 @@
 
 <h1 align="center">
 <br>
-  <img src="" alt="AluraQuiz" width="216">
+  <img src="https://i.ibb.co/z8QCV07/Captura-de-tela-de-2021-01-30-12-41-44-removebg-preview.png" alt="AluraQuiz" width="216">
 <br>
 <br>
   
@@ -9,7 +9,7 @@
 
 </h1>
 
-Quiz desenvolvido duranta a Imersão React/Next.js da [Alura](https://www.alura.com.br/)
+<p align="center">Quiz desenvolvido duranta a Imersão React/Next.js da <a href="https://www.alura.com.br" target="_blank">Alura</a></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/yuripiresalves">
